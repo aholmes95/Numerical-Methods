@@ -1,4 +1,5 @@
-#This function evaluates the given recursion relation using 32 bit floating point arithmetic
+#This function evaluates the  recursion relation given by
+#a_{n+1} = 2a_{n} - 8/9a_{n-1} using single precision floating point arithmetic
 function recurse32(n::Int)
     a1 = Float32(1)
     a2 = Float32(2)/Float32(3)

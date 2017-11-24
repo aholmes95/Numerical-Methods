@@ -1,3 +1,5 @@
+#This function evaluates the  recursion relation given by
+#a_{n+1} = 2a_{n} - 8/9a_{n-1} using 128 bit precision.
 function recurse128(n::Int)
     a1 = BigFloat(1)
     a2 = BigFloat(2)/BigFloat(3)
